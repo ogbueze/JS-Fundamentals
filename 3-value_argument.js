@@ -3,7 +3,5 @@ const numArgument = process.argv.slice(2);
 if (numArgument == 0) {
 	console.log("No argument");
 } else {
-	numArgument.forEach((value) => {
-		console.log(value);
-	});
+	console.log(numArgument[0]);
 }
