@@ -7,7 +7,7 @@ if (
 ) {
 	count = Number(multiLineArg);
 	for (let index = 0; index < count; index++) {
-		console.log("x".repeat(count));
+		console.log("X".repeat(count));
 	}
 } else {
 	console.log("Missing size");
